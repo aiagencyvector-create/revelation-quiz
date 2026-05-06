@@ -1,5 +1,5 @@
 export const screens = [
-  // SCREEN 1 - Entry / Symptoms
+  // SCREEN 1 - Symptoms
   {
     id: 1,
     type: 'single',
@@ -27,7 +27,7 @@ export const screens = [
       { label: 'D', text: 'Skeptic — but the news keeps sending me back to the Bible' },
     ],
   },
-  // SCREEN 3 - Prior Awareness (merged with Research History)
+  // SCREEN 3 - Prior Awareness
   {
     id: 3,
     type: 'single',
@@ -68,43 +68,30 @@ export const screens = [
       { label: 'F', text: 'Post-tribulation — why Scripture supports it' },
     ],
   },
-  // SCREEN 6 - Editorial: Intelligence Briefing
+  // SCREEN 6 - Briefing (combines old briefing + missing piece)
   {
     id: 6,
     type: 'editorial',
     tag: 'INTELLIGENCE BRIEFING',
-    warning: 'Before you see your results — read this:',
+    warning: 'Before you see your result — read this:',
     headline: 'Economists, generals, and scientists are describing Revelation — they just don\'t know it yet.',
     paragraphs: [
       'In 2022, the BIS outlined a programmable global digital currency where transactions could be blocked by behavior. In 2023, the WEF presented a roadmap for unified global governance. In 2024, NATO began modeling a multi-front conflict centered on Israel, Iran, Russia, and China.',
-      'None of these institutions reference the Bible. None are Christian organizations.',
-      'And yet — a first-century exile named John, writing from Patmos in 95 A.D., described a world where no one could buy or sell without a mark, where a coalition from the north would descend on Israel, and where the entire system would be centralized under one authority.',
-    ],
-    closingBold: 'The question is no longer whether these things are possible. It\'s how close are we — and are you prepared?',
-    cta: 'I want to understand this',
-  },
-  // SCREEN 7 - Editorial: The Missing Piece
-  {
-    id: 7,
-    type: 'editorial',
-    tag: 'THE MISSING PIECE',
-    warning: "Here's what most churches never told you:",
-    paragraphs: [
-      'The pre-tribulation rapture view — taught for the last 100 years — has no clear precedent in Scripture before the 1830s. For 1,800 years before that, believers prepared to endure, not escape.',
-      'The result: millions of Christians today are unprepared for tribulation, because they were told they\'d never face it.',
+      'None of these institutions reference the Bible. None are Christian organizations. And yet — a first-century exile named John, writing from Patmos in 95 A.D., described all of it: the mark, the coalition from the north, a system centralized under one authority.',
+      'For 1,800 years, believers prepared to endure. Only in the last 100 years has the Church been told it would escape. The result: millions are unprepared for what\'s already beginning.',
     ],
     scripture: '"He who endures to the end will be saved." — Matthew 24:13',
-    cta: 'Continue',
+    cta: 'See my result',
   },
-  // SCREEN 8 - Final Decision
+  // SCREEN 7 - Final Decision
   {
-    id: 8,
+    id: 7,
     type: 'final',
     tag: 'YOUR DECISION',
-    title: 'Are you ready to finally understand what\'s happening in the world — and why?',
-    subtitle: 'The timeline is moving. The data is public. The Word already described it. All that\'s missing is someone to connect the dots.',
+    title: 'Are you ready to see what your answers reveal?',
+    subtitle: 'Based on your profile, we\'ll show you a personalized recommendation — and exactly where to start.',
     options: [
-      { label: 'A', text: "Yes — show me my results." },
+      { label: 'A', text: "Yes — show me my result." },
       { label: 'B', text: "Not yet — I need more time." },
     ],
   },

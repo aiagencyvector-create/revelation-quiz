@@ -55,7 +55,7 @@ function Quiz() {
     return (
       <div className="quiz-app">
         <FireBackground />
-        <Completion />
+        <Completion answers={answers} />
       </div>
     );
   }
