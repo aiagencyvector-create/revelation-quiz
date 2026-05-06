@@ -19,14 +19,6 @@ export default function Comparison({ screen, onContinue }) {
         ))}
       </div>
 
-      <div className="testimonial">
-        <div className="testimonial-header">
-          <div className="testimonial-name">{screen.testimonial.name}</div>
-          <div className="testimonial-role">{screen.testimonial.title}</div>
-        </div>
-        <div className="testimonial-quote">"{screen.testimonial.quote}"</div>
-      </div>
-
       <button className="continue-btn" onClick={onContinue}>
         Continue →
       </button>

@@ -18,27 +18,6 @@ const chapters = [
   { num: '06', title: 'Complete Prophetic Timeline', desc: 'Every seal, trumpet, and bowl — mapped to historical and current events.' },
 ];
 
-const testimonials = [
-  {
-    name: 'David R.',
-    location: 'Austin, TX',
-    role: 'Former Intelligence Analyst, 19 years U.S. Army',
-    quote: 'I spent two decades analyzing global threats for a living. The economic control architecture described in Revelation 13 is not theoretical anymore. This guide connected the prophecy to the evidence — and told me what to do about it.',
-  },
-  {
-    name: 'Sarah M.',
-    location: 'Nashville, TN',
-    role: "Pastor's wife, 12 years in ministry",
-    quote: "For the first time, I could explain the prophetic timeline to my small group without glossing over the hard parts. This isn't fear — it's preparation. And preparation brings peace.",
-  },
-  {
-    name: 'James K.',
-    location: 'Portland, OR',
-    role: 'Data Scientist & former agnostic',
-    quote: "I came in as a skeptic who just wanted to fact-check. The geopolitical data is real. The economic data is verifiable. And a man on a Greek island described it 2,000 years ago. I can't unsee it.",
-  },
-];
-
 function CountUp({ end, duration = 2000, suffix = '' }) {
   const [count, setCount] = useState(0);
   const [started, setStarted] = useState(false);
@@ -300,49 +279,6 @@ export default function LandingPage() {
         </div>
       </section>
 
-      {/* ===== TESTIMONIALS ===== */}
-      <section className="section section-testimonials">
-        <div className="section-inner">
-          <RevealOnScroll>
-            <span className="section-tag">REAL PEOPLE. REAL IMPACT.</span>
-            <h2 className="section-title">What others are saying</h2>
-          </RevealOnScroll>
-          <div className="testimonials-grid">
-            {testimonials.map((t, i) => (
-              <RevealOnScroll key={i} delay={i * 120}>
-                <div className="testimonial-card">
-                  <div className="testimonial-card-line" />
-                  <p className="testimonial-card-quote">"{t.quote}"</p>
-                  <div className="testimonial-card-footer">
-                    <strong>{t.name}</strong> — {t.location}
-                    <br />
-                    <span className="testimonial-card-role">{t.role}</span>
-                  </div>
-                </div>
-              </RevealOnScroll>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* ===== AUTHORITY ===== */}
-      <section className="section section-authority">
-        <div className="section-inner">
-          <RevealOnScroll>
-            <div className="authority-card">
-              <div className="authority-badge">EXPERT ANALYSIS</div>
-              <h3 className="authority-name">Dr. Thomas E. Hargrove</h3>
-              <p className="authority-role">Professor of Biblical Eschatology and International Relations — 31 years of research</p>
-              <blockquote className="authority-quote">
-                "What I'm about to share connects three data points — a 2023 IMF report,
-                a passage in Revelation 13, and a declassified Pentagon document. When I first put
-                these together, I had to sit down. Because John described it first — in 95 A.D."
-              </blockquote>
-            </div>
-          </RevealOnScroll>
-        </div>
-      </section>
-
       {/* ===== NUMBERS ===== */}
       <section className="section section-numbers">
         <div className="section-inner">
@@ -477,40 +413,6 @@ export default function LandingPage() {
               </a>
               <p className="book-secure">Secure checkout via Stripe &middot; Instant PDF delivery</p>
             </div>
-          </RevealOnScroll>
-        </div>
-      </section>
-
-      {/* ===== FINAL CTA — Cinematic ===== */}
-      <section className="section-final-cta">
-        <div className="final-cta-bg" />
-        <div className="final-cta-overlay" />
-        <div className="final-cta-content">
-          <RevealOnScroll>
-            <span className="section-tag">YOUR DECISION</span>
-            <h2 className="final-cta-title">
-              The timeline is already moving.<br />
-              The data is already public.<br />
-              <span className="text-accent">The Word already described it.</span>
-            </h2>
-          </RevealOnScroll>
-          <RevealOnScroll delay={200}>
-            <p className="final-cta-text">
-              All that's missing is someone to connect the dots —
-              clearly, honestly, and without fear.
-            </p>
-            <a
-              href="https://buy.stripe.com/00w00b8vH5oX1WObB35Ne01"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="hero-cta final"
-            >
-              <span>Get the Revelation Intelligence Guide</span>
-              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
-                <path d="M5 12h14M12 5l7 7-7 7" />
-              </svg>
-            </a>
-            <p className="hero-micro">Secure checkout &middot; Instant PDF delivery</p>
           </RevealOnScroll>
         </div>
       </section>
