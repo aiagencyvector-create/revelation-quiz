@@ -83,16 +83,4 @@ export const screens = [
     scripture: '"He who endures to the end will be saved." — Matthew 24:13',
     cta: 'See my result',
   },
-  // SCREEN 7 - Final Decision
-  {
-    id: 7,
-    type: 'final',
-    tag: 'YOUR DECISION',
-    title: 'Are you ready to see what your answers reveal?',
-    subtitle: 'Based on your profile, we\'ll show you a personalized recommendation — and exactly where to start.',
-    options: [
-      { label: 'A', text: "Yes — show me my result." },
-      { label: 'B', text: "Not yet — I need more time." },
-    ],
-  },
 ];
